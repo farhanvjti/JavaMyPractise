@@ -1,7 +1,6 @@
 package com.javaHK.Arrays;
-
 import java.util.Arrays;
-
+//Copy one Array to another Array
 public class CopyArray {
     public static void main(String[] args) {
 	int[] ia1 = {2,4,6,8};
