@@ -1,6 +1,6 @@
 package com.javaHK.Arrays;
 import java.util.Arrays;
-
+//To remove an element at index location 2.
 public class DeleteElement {
 	public static void main(String[] args) {
 		//Approach 1 using second array and copying.
