@@ -4,7 +4,7 @@ public class Painter {
     public static void main(String[] args) {
        //Circle c = new Circle(2.0);
        //c.findArea();
-        Shape s;
+       /* Shape s;
         s = new Rectangle(3,4);
         s.findArea();  //findArea() is executed from Rectangle class at RunTime,
                        // based on the obj in s.
@@ -13,6 +13,16 @@ public class Painter {
         s.findArea();
 
         s=new Circle(2);
+        s.findArea();
+        */
+       Painter p = new Painter();
+       p.draw(new Rectangle(3,4));
+       p.draw(new Square(5));
+       p.draw(new Circle(2));
+
+
+    }
+    void draw(Shape s){ //LC-> any of subtypes can be find and changed
         s.findArea();
     }
 }
@@ -39,6 +49,11 @@ We cannot achieve MOVR with Static method.
 
  If JVM goes with compile time decision then it is Compile Time Polym.
  If JVM takes extra decision at run time then it is Run time Polym.
+
+Super class wt type of methods are recommended to create?
+.static method or non-static method == non-static.
+-> if SM, project is not dynamically extensible.
+
 
 */
 
