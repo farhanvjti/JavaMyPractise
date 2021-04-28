@@ -56,8 +56,6 @@ Super class wt type of methods are recommended to create?
 -> if SM, project is not dynamically extensible.
 -> if SM, then MH takes place and compiler always binds the method call
 to super class(RVclass) irrespective of the obj reference passed.
-
-
 */
 
 
