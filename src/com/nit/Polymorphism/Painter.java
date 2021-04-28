@@ -23,6 +23,7 @@ public class Painter {
 
     }
     void draw(Shape s){ //LC-> any of subtypes can be find and changed
+
         s.findArea();
     }
 }
@@ -51,8 +52,10 @@ We cannot achieve MOVR with Static method.
  If JVM takes extra decision at run time then it is Run time Polym.
 
 Super class wt type of methods are recommended to create?
-.static method or non-static method == non-static.
+.static method or non-static method ==>ANS: non-static.
 -> if SM, project is not dynamically extensible.
+-> if SM, then MH takes place and compiler always binds the method call
+to super class(RVclass) irrespective of the obj reference passed.
 
 
 */
